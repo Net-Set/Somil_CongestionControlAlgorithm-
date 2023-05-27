@@ -1,0 +1,22 @@
+{
+  "name": "somil_congestioncontrolalgorithm",
+  "version": "1.0.0",
+  "description": "In this example, we have a CongestionControlAlgorithm class that represents the congestion control logic. It maintains the current window size and threshold values. The handlePacketAcknowledgment method is called when a packet is acknowledged, and it adjusts the window size accordingly based on the congestion phase. The handlePacketLoss method is called when a packet loss is detected, and it adjusts the window size and threshold based on the congestion control rules.t to see the window size adjustments after a packet acknowledgment and a packet loss.",
+  "main": "index.js",
+  "scripts": {
+    "test": "s is a simple example of a congestion control algorithm and does not cover all aspects and complexities of real-world congestion control mechanisms. Real algorithms, such as TCP congestion control, involve more intricate logic and mechanisms."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Net-Set/Somil_CongestionControlAlgorithm-.git"
+  },
+  "keywords": [
+    "somil_congestioncontrolalgorithm"
+  ],
+  "author": "Somil Merugawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Net-Set/Somil_CongestionControlAlgorithm-/issues"
+  },
+  "homepage": "https://github.com/Net-Set/Somil_CongestionControlAlgorithm-#readme"
+}
